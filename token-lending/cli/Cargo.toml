@@ -10,12 +10,12 @@ version = "0.2.0"
 
 [dependencies]
 clap = "2.33.3"
-solana-clap-utils = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-cli-config = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-client = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-logger = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-sdk = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-program = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-clap-utils = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-cli-config = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-client = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-logger = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-sdk = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-program = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 spl-token-lending = { version = "0.2", path="../program", features = [ "no-entrypoint" ] }
 spl-token = { version = "4.0.1", path="../../token/program", features = [ "no-entrypoint" ]  }
 

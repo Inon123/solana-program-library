@@ -15,7 +15,7 @@ num-derive = "0.4"
 num-traits = "0.2"
 serde = "1.0.197"
 serde_derive = "1.0.103"
-solana-program = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-program = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 spl-token = { version = "4.0.1", path = "../../token/program", features = [
   "no-entrypoint",
 ] }

@@ -15,11 +15,11 @@ no-entrypoint = []
 test-sbf = []
 
 [dependencies]
-solana-program = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-program = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 
 [dev-dependencies]
-solana-program-test = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-sdk = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-program-test = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-sdk = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 
 [lib]
 crate-type = ["cdylib", "lib"]

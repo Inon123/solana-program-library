@@ -13,7 +13,7 @@ borsh = ["dep:borsh"]
 [dependencies]
 borsh = { version = "0.10", optional = true }
 bytemuck = { version = "1.14.3", features = ["derive"] }
-solana-program = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-program = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 spl-discriminator-derive = { version = "0.1.2", path = "./derive" }
 
 [lib]

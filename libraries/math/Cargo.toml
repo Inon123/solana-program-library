@@ -15,14 +15,14 @@ test-sbf = []
 borsh = "1.2.1"
 num-derive = "0.4"
 num-traits = "0.2"
-solana-program = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-program = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 thiserror = "1.0"
 uint = "0.9"
 
 [dev-dependencies]
 proptest = "1.4.0"
-solana-program-test = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-sdk = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-program-test = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-sdk = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 libm = "0.2.8"
 
 [lib]

@@ -633,7 +633,7 @@ version = "0.1.0"
 dependencies = [
  "arrayref",
  "borsh 1.2.1",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-token 4.0.1",
  "thiserror",
  "uint",
@@ -1992,7 +1992,7 @@ name = "flash_loan_receiver"
 version = "1.0.0"
 dependencies = [
  "arrayref",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-token 4.0.1",
 ]
 
@@ -5052,7 +5052,7 @@ dependencies = [
 [[package]]
 name = "solana-account-decoder"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "Inflector",
  "base64 0.21.7",
@@ -5064,11 +5064,11 @@ dependencies = [
  "serde_derive",
  "serde_json",
  "solana-config-program",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "spl-token 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=401edd89551624edb53beb3f0b82c30e2474340e)",
- "spl-token-2022 2.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-token-group-interface 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-token-metadata-interface 0.2.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "spl-token 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-token-2022 2.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-token-group-interface 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-token-metadata-interface 0.2.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
  "thiserror",
  "zstd",
 ]
@@ -5076,7 +5076,7 @@ dependencies = [
 [[package]]
 name = "solana-accounts-db"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "arrayref",
  "bincode",
@@ -5114,14 +5114,14 @@ dependencies = [
  "smallvec",
  "solana-bucket-map",
  "solana-config-program",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-measure",
  "solana-metrics",
  "solana-nohash-hasher",
  "solana-program-runtime",
  "solana-rayon-threadlimit",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-stake-program",
  "solana-system-program",
  "solana-vote-program",
@@ -5136,7 +5136,7 @@ dependencies = [
 [[package]]
 name = "solana-address-lookup-table-program"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "bytemuck",
@@ -5145,24 +5145,24 @@ dependencies = [
  "num-traits",
  "rustc_version",
  "serde",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
 ]
 
 [[package]]
 name = "solana-banks-client"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "borsh 1.2.1",
  "futures 0.3.30",
  "solana-banks-interface",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "tarpc",
  "thiserror",
  "tokio",
@@ -5172,17 +5172,17 @@ dependencies = [
 [[package]]
 name = "solana-banks-interface"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "serde",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "tarpc",
 ]
 
 [[package]]
 name = "solana-banks-server"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "crossbeam-channel",
@@ -5191,7 +5191,7 @@ dependencies = [
  "solana-banks-interface",
  "solana-client",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-send-transaction-service",
  "tarpc",
  "tokio",
@@ -5201,7 +5201,7 @@ dependencies = [
 [[package]]
 name = "solana-bloom"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bv",
  "fnv",
@@ -5211,15 +5211,15 @@ dependencies = [
  "rustc_version",
  "serde",
  "serde_derive",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "solana-bpf-loader-program"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "byteorder",
@@ -5228,8 +5228,8 @@ dependencies = [
  "scopeguard",
  "solana-measure",
  "solana-program-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana_rbpf",
  "thiserror",
 ]
@@ -5237,7 +5237,7 @@ dependencies = [
 [[package]]
 name = "solana-bucket-map"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bv",
  "bytemuck",
@@ -5247,20 +5247,20 @@ dependencies = [
  "num_enum",
  "rand 0.8.5",
  "solana-measure",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "tempfile",
 ]
 
 [[package]]
 name = "solana-clap-utils"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "chrono",
  "clap 2.34.0",
  "rpassword",
  "solana-remote-wallet",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
  "tiny-bip39",
  "uriparse",
@@ -5270,14 +5270,14 @@ dependencies = [
 [[package]]
 name = "solana-clap-v3-utils"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "chrono",
  "clap 3.2.25",
  "rpassword",
  "solana-remote-wallet",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
  "tiny-bip39",
  "uriparse",
@@ -5287,7 +5287,7 @@ dependencies = [
 [[package]]
 name = "solana-cli-config"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "dirs-next",
  "lazy_static",
@@ -5295,14 +5295,14 @@ dependencies = [
  "serde_derive",
  "serde_yaml",
  "solana-clap-utils",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "url 2.5.0",
 ]
 
 [[package]]
 name = "solana-cli-output"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "Inflector",
  "base64 0.21.7",
@@ -5319,16 +5319,16 @@ dependencies = [
  "solana-clap-utils",
  "solana-cli-config",
  "solana-rpc-client-api",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-transaction-status",
  "solana-vote-program",
- "spl-memo 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "spl-memo 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
 ]
 
 [[package]]
 name = "solana-client"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "async-trait",
  "bincode",
@@ -5348,7 +5348,7 @@ dependencies = [
  "solana-rpc-client",
  "solana-rpc-client-api",
  "solana-rpc-client-nonce-utils",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-streamer",
  "solana-thin-client",
  "solana-tpu-client",
@@ -5360,29 +5360,29 @@ dependencies = [
 [[package]]
 name = "solana-compute-budget-program"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "solana-program-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "solana-config-program"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "chrono",
  "serde",
  "serde_derive",
  "solana-program-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "solana-connection-cache"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "async-trait",
  "bincode",
@@ -5395,7 +5395,7 @@ dependencies = [
  "rcgen",
  "solana-measure",
  "solana-metrics",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
  "tokio",
 ]
@@ -5403,7 +5403,7 @@ dependencies = [
 [[package]]
 name = "solana-core"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "base64 0.21.7",
  "bincode",
@@ -5439,8 +5439,8 @@ dependencies = [
  "solana-client",
  "solana-cost-model",
  "solana-entry",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-geyser-plugin-manager",
  "solana-gossip",
  "solana-ledger",
@@ -5455,7 +5455,7 @@ dependencies = [
  "solana-rpc",
  "solana-rpc-client-api",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-send-transaction-service",
  "solana-streamer",
  "solana-tpu-client",
@@ -5479,7 +5479,7 @@ dependencies = [
 [[package]]
 name = "solana-cost-model"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "lazy_static",
  "log",
@@ -5488,12 +5488,12 @@ dependencies = [
  "solana-bpf-loader-program",
  "solana-compute-budget-program",
  "solana-config-program",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-loader-v4-program",
  "solana-metrics",
  "solana-program-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-stake-program",
  "solana-system-program",
  "solana-vote-program",
@@ -5502,7 +5502,7 @@ dependencies = [
 [[package]]
 name = "solana-entry"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "crossbeam-channel",
@@ -5517,13 +5517,13 @@ dependencies = [
  "solana-metrics",
  "solana-perf",
  "solana-rayon-threadlimit",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "solana-faucet"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "byteorder",
@@ -5534,11 +5534,11 @@ dependencies = [
  "serde_derive",
  "solana-clap-utils",
  "solana-cli-config",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-metrics",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-version",
- "spl-memo 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "spl-memo 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
  "thiserror",
  "tokio",
 ]
@@ -5546,7 +5546,7 @@ dependencies = [
 [[package]]
 name = "solana-frozen-abi"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=1d97168adad264eea43a67cf7099e5210bd59ab1#1d97168adad264eea43a67cf7099e5210bd59ab1"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "block-buffer 0.10.4",
  "bs58",
@@ -5562,7 +5562,7 @@ dependencies = [
  "serde_bytes",
  "serde_derive",
  "sha2 0.10.8",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=1d97168adad264eea43a67cf7099e5210bd59ab1)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "subtle",
  "thiserror",
 ]
@@ -5570,7 +5570,7 @@ dependencies = [
 [[package]]
 name = "solana-frozen-abi"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f#3be83b35d87cf3c3582b3beaf5b672963e574b6f"
+source = "git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d#bc5f5ec88e16c00c76c823f7140e15f7d5261f6d"
 dependencies = [
  "block-buffer 0.10.4",
  "bs58",
@@ -5586,31 +5586,7 @@ dependencies = [
  "serde_bytes",
  "serde_derive",
  "sha2 0.10.8",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "subtle",
- "thiserror",
-]
-
-[[package]]
-name = "solana-frozen-abi"
-version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
-dependencies = [
- "block-buffer 0.10.4",
- "bs58",
- "bv",
- "either",
- "generic-array 0.14.7",
- "im",
- "lazy_static",
- "log",
- "memmap2",
- "rustc_version",
- "serde",
- "serde_bytes",
- "serde_derive",
- "sha2 0.10.8",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
  "subtle",
  "thiserror",
 ]
@@ -5618,7 +5594,7 @@ dependencies = [
 [[package]]
 name = "solana-frozen-abi-macro"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=1d97168adad264eea43a67cf7099e5210bd59ab1#1d97168adad264eea43a67cf7099e5210bd59ab1"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5629,18 +5605,7 @@ dependencies = [
 [[package]]
 name = "solana-frozen-abi-macro"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f#3be83b35d87cf3c3582b3beaf5b672963e574b6f"
-dependencies = [
- "proc-macro2",
- "quote",
- "rustc_version",
- "syn 2.0.46",
-]
-
-[[package]]
-name = "solana-frozen-abi-macro"
-version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d#bc5f5ec88e16c00c76c823f7140e15f7d5261f6d"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5651,10 +5616,10 @@ dependencies = [
 [[package]]
 name = "solana-geyser-plugin-interface"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "log",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-transaction-status",
  "thiserror",
 ]
@@ -5662,7 +5627,7 @@ dependencies = [
 [[package]]
 name = "solana-geyser-plugin-manager"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bs58",
  "crossbeam-channel",
@@ -5680,7 +5645,7 @@ dependencies = [
  "solana-metrics",
  "solana-rpc",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-transaction-status",
  "thiserror",
 ]
@@ -5688,7 +5653,7 @@ dependencies = [
 [[package]]
 name = "solana-gossip"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "assert_matches",
  "bincode",
@@ -5713,17 +5678,17 @@ dependencies = [
  "solana-clap-utils",
  "solana-client",
  "solana-entry",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-ledger",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-measure",
  "solana-metrics",
  "solana-net-utils",
  "solana-perf",
  "solana-rayon-threadlimit",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-streamer",
  "solana-thin-client",
  "solana-tpu-client",
@@ -5737,7 +5702,7 @@ dependencies = [
 [[package]]
 name = "solana-ledger"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "assert_matches",
  "bincode",
@@ -5773,23 +5738,23 @@ dependencies = [
  "solana-bpf-loader-program",
  "solana-cost-model",
  "solana-entry",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-measure",
  "solana-metrics",
  "solana-perf",
  "solana-program-runtime",
  "solana-rayon-threadlimit",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-stake-program",
  "solana-storage-bigtable",
  "solana-storage-proto",
  "solana-transaction-status",
  "solana-vote",
  "solana-vote-program",
- "spl-token 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-token-2022 2.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "spl-token 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-token-2022 2.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
  "static_assertions",
  "strum 0.24.1",
  "strum_macros 0.24.3",
@@ -5803,19 +5768,19 @@ dependencies = [
 [[package]]
 name = "solana-loader-v4-program"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "log",
  "solana-measure",
  "solana-program-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana_rbpf",
 ]
 
 [[package]]
 name = "solana-logger"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f#3be83b35d87cf3c3582b3beaf5b672963e574b6f"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "env_logger",
  "lazy_static",
@@ -5825,7 +5790,7 @@ dependencies = [
 [[package]]
 name = "solana-logger"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d#bc5f5ec88e16c00c76c823f7140e15f7d5261f6d"
 dependencies = [
  "env_logger",
  "lazy_static",
@@ -5835,39 +5800,39 @@ dependencies = [
 [[package]]
 name = "solana-measure"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "log",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "solana-merkle-tree"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "fast-math",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "solana-metrics"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "crossbeam-channel",
  "gethostname",
  "lazy_static",
  "log",
  "reqwest",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
 ]
 
 [[package]]
 name = "solana-net-utils"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "clap 3.2.25",
@@ -5878,8 +5843,8 @@ dependencies = [
  "serde",
  "serde_derive",
  "socket2",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-version",
  "tokio",
  "url 2.5.0",
@@ -5894,7 +5859,7 @@ checksum = "8b8a731ed60e89177c8a7ab05fe0f1511cedd3e70e773f288f9de33a9cfdc21e"
 [[package]]
 name = "solana-perf"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "ahash 0.8.9",
  "bincode",
@@ -5911,18 +5876,18 @@ dependencies = [
  "rayon",
  "rustc_version",
  "serde",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-metrics",
  "solana-rayon-threadlimit",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-vote-program",
 ]
 
 [[package]]
 name = "solana-poh"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "core_affinity",
  "crossbeam-channel",
@@ -5932,14 +5897,14 @@ dependencies = [
  "solana-measure",
  "solana-metrics",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
 ]
 
 [[package]]
 name = "solana-program"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=1d97168adad264eea43a67cf7099e5210bd59ab1#1d97168adad264eea43a67cf7099e5210bd59ab1"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "ark-bn254",
  "ark-ec",
@@ -5981,63 +5946,9 @@ dependencies = [
  "serde_json",
  "sha2 0.10.8",
  "sha3",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=1d97168adad264eea43a67cf7099e5210bd59ab1)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=1d97168adad264eea43a67cf7099e5210bd59ab1)",
- "solana-sdk-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=1d97168adad264eea43a67cf7099e5210bd59ab1)",
- "thiserror",
- "tiny-bip39",
- "wasm-bindgen",
- "zeroize",
-]
-
-[[package]]
-name = "solana-program"
-version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f#3be83b35d87cf3c3582b3beaf5b672963e574b6f"
-dependencies = [
- "ark-bn254",
- "ark-ec",
- "ark-ff",
- "ark-serialize",
- "base64 0.21.7",
- "bincode",
- "bitflags 2.4.2",
- "blake3",
- "borsh 0.10.3",
- "borsh 0.9.3",
- "borsh 1.2.1",
- "bs58",
- "bv",
- "bytemuck",
- "cc",
- "console_error_panic_hook",
- "console_log",
- "curve25519-dalek 4.1.2",
- "getrandom 0.2.10",
- "itertools",
- "js-sys",
- "lazy_static",
- "libc",
- "libsecp256k1",
- "light-poseidon",
- "log",
- "memoffset 0.9.0",
- "num-bigint 0.4.4",
- "num-derive",
- "num-traits",
- "parking_lot 0.12.0",
- "rand 0.8.5",
- "rustc_version",
- "rustversion",
- "serde",
- "serde_bytes",
- "serde_derive",
- "serde_json",
- "sha2 0.10.8",
- "sha3",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "solana-sdk-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-sdk-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
  "tiny-bip39",
  "wasm-bindgen",
@@ -6047,7 +5958,7 @@ dependencies = [
 [[package]]
 name = "solana-program"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d#bc5f5ec88e16c00c76c823f7140e15f7d5261f6d"
 dependencies = [
  "ark-bn254",
  "ark-ec",
@@ -6089,9 +6000,9 @@ dependencies = [
  "serde_json",
  "sha2 0.10.8",
  "sha3",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-sdk-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "solana-sdk-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
  "thiserror",
  "tiny-bip39",
  "wasm-bindgen",
@@ -6101,7 +6012,7 @@ dependencies = [
 [[package]]
 name = "solana-program-runtime"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "base64 0.21.7",
  "bincode",
@@ -6116,11 +6027,11 @@ dependencies = [
  "rand 0.8.5",
  "rustc_version",
  "serde",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-measure",
  "solana-metrics",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana_rbpf",
  "thiserror",
 ]
@@ -6128,7 +6039,7 @@ dependencies = [
 [[package]]
 name = "solana-program-test"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "assert_matches",
  "async-trait",
@@ -6143,10 +6054,10 @@ dependencies = [
  "solana-banks-interface",
  "solana-banks-server",
  "solana-bpf-loader-program",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-runtime",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-vote-program",
  "solana_rbpf",
  "test-case",
@@ -6157,7 +6068,7 @@ dependencies = [
 [[package]]
 name = "solana-pubsub-client"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "crossbeam-channel",
  "futures-util",
@@ -6169,7 +6080,7 @@ dependencies = [
  "serde_json",
  "solana-account-decoder",
  "solana-rpc-client-api",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
  "tokio",
  "tokio-stream",
@@ -6181,7 +6092,7 @@ dependencies = [
 [[package]]
 name = "solana-quic-client"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "async-mutex",
  "async-trait",
@@ -6198,7 +6109,7 @@ dependencies = [
  "solana-metrics",
  "solana-net-utils",
  "solana-rpc-client-api",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-streamer",
  "thiserror",
  "tokio",
@@ -6207,7 +6118,7 @@ dependencies = [
 [[package]]
 name = "solana-rayon-threadlimit"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "lazy_static",
  "num_cpus",
@@ -6216,7 +6127,7 @@ dependencies = [
 [[package]]
 name = "solana-remote-wallet"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "console",
  "dialoguer",
@@ -6227,7 +6138,7 @@ dependencies = [
  "parking_lot 0.12.0",
  "qstring",
  "semver",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
  "uriparse",
 ]
@@ -6235,7 +6146,7 @@ dependencies = [
 [[package]]
 name = "solana-rpc"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "base64 0.21.7",
  "bincode",
@@ -6270,7 +6181,7 @@ dependencies = [
  "solana-rayon-threadlimit",
  "solana-rpc-client-api",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-send-transaction-service",
  "solana-stake-program",
  "solana-storage-bigtable",
@@ -6280,8 +6191,8 @@ dependencies = [
  "solana-version",
  "solana-vote",
  "solana-vote-program",
- "spl-token 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-token-2022 2.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "spl-token 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-token-2022 2.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
  "stream-cancel",
  "thiserror",
  "tokio",
@@ -6291,7 +6202,7 @@ dependencies = [
 [[package]]
 name = "solana-rpc-client"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "async-trait",
  "base64 0.21.7",
@@ -6306,7 +6217,7 @@ dependencies = [
  "serde_json",
  "solana-account-decoder",
  "solana-rpc-client-api",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-transaction-status",
  "solana-version",
  "solana-vote-program",
@@ -6316,7 +6227,7 @@ dependencies = [
 [[package]]
 name = "solana-rpc-client-api"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "base64 0.21.7",
  "bs58",
@@ -6327,29 +6238,29 @@ dependencies = [
  "serde_derive",
  "serde_json",
  "solana-account-decoder",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-transaction-status",
  "solana-version",
- "spl-token-2022 2.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "spl-token-2022 2.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
  "thiserror",
 ]
 
 [[package]]
 name = "solana-rpc-client-nonce-utils"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "clap 2.34.0",
  "solana-clap-utils",
  "solana-rpc-client",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
 ]
 
 [[package]]
 name = "solana-runtime"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "aquamarine",
  "arrayref",
@@ -6396,22 +6307,22 @@ dependencies = [
  "solana-compute-budget-program",
  "solana-config-program",
  "solana-cost-model",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-loader-v4-program",
  "solana-measure",
  "solana-metrics",
  "solana-perf",
  "solana-program-runtime",
  "solana-rayon-threadlimit",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-stake-program",
  "solana-system-program",
  "solana-version",
  "solana-vote",
  "solana-vote-program",
  "solana-zk-token-proof-program",
- "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "static_assertions",
  "strum 0.24.1",
  "strum_macros 0.24.3",
@@ -6425,7 +6336,7 @@ dependencies = [
 [[package]]
 name = "solana-sdk"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f#3be83b35d87cf3c3582b3beaf5b672963e574b6f"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "assert_matches",
  "base64 0.21.7",
@@ -6466,11 +6377,11 @@ dependencies = [
  "sha2 0.10.8",
  "sha3",
  "siphasher",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "solana-sdk-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-sdk-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
  "uriparse",
  "wasm-bindgen",
@@ -6479,7 +6390,7 @@ dependencies = [
 [[package]]
 name = "solana-sdk"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d#bc5f5ec88e16c00c76c823f7140e15f7d5261f6d"
 dependencies = [
  "assert_matches",
  "base64 0.21.7",
@@ -6520,11 +6431,11 @@ dependencies = [
  "sha2 0.10.8",
  "sha3",
  "siphasher",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-sdk-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "solana-sdk-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
  "thiserror",
  "uriparse",
  "wasm-bindgen",
@@ -6533,7 +6444,7 @@ dependencies = [
 [[package]]
 name = "solana-sdk-macro"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=1d97168adad264eea43a67cf7099e5210bd59ab1#1d97168adad264eea43a67cf7099e5210bd59ab1"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bs58",
  "proc-macro2",
@@ -6545,19 +6456,7 @@ dependencies = [
 [[package]]
 name = "solana-sdk-macro"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f#3be83b35d87cf3c3582b3beaf5b672963e574b6f"
-dependencies = [
- "bs58",
- "proc-macro2",
- "quote",
- "rustversion",
- "syn 2.0.46",
-]
-
-[[package]]
-name = "solana-sdk-macro"
-version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d#bc5f5ec88e16c00c76c823f7140e15f7d5261f6d"
 dependencies = [
  "bs58",
  "proc-macro2",
@@ -6575,7 +6474,7 @@ checksum = "468aa43b7edb1f9b7b7b686d5c3aeb6630dc1708e86e31343499dd5c4d775183"
 [[package]]
 name = "solana-send-transaction-service"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "crossbeam-channel",
  "log",
@@ -6583,28 +6482,28 @@ dependencies = [
  "solana-measure",
  "solana-metrics",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-tpu-client",
 ]
 
 [[package]]
 name = "solana-stake-program"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "log",
  "rustc_version",
  "solana-config-program",
  "solana-program-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-vote-program",
 ]
 
 [[package]]
 name = "solana-storage-bigtable"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "backoff",
  "bincode",
@@ -6625,7 +6524,7 @@ dependencies = [
  "serde_derive",
  "smpl_jwt",
  "solana-metrics",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-storage-proto",
  "solana-transaction-status",
  "thiserror",
@@ -6637,7 +6536,7 @@ dependencies = [
 [[package]]
 name = "solana-storage-proto"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "bs58",
@@ -6645,7 +6544,7 @@ dependencies = [
  "protobuf-src",
  "serde",
  "solana-account-decoder",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-transaction-status",
  "tonic-build",
 ]
@@ -6653,7 +6552,7 @@ dependencies = [
 [[package]]
 name = "solana-streamer"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "async-channel",
  "bytes",
@@ -6675,7 +6574,7 @@ dependencies = [
  "rustls",
  "solana-metrics",
  "solana-perf",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
  "tokio",
  "x509-parser",
@@ -6684,20 +6583,20 @@ dependencies = [
 [[package]]
 name = "solana-system-program"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "log",
  "serde",
  "serde_derive",
  "solana-program-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "solana-test-validator"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "base64 0.21.7",
  "bincode",
@@ -6712,14 +6611,14 @@ dependencies = [
  "solana-geyser-plugin-manager",
  "solana-gossip",
  "solana-ledger",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-net-utils",
  "solana-program-runtime",
  "solana-program-test",
  "solana-rpc",
  "solana-rpc-client",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-streamer",
  "solana-tpu-client",
  "tokio",
@@ -6728,7 +6627,7 @@ dependencies = [
 [[package]]
 name = "solana-thin-client"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "log",
@@ -6736,13 +6635,13 @@ dependencies = [
  "solana-connection-cache",
  "solana-rpc-client",
  "solana-rpc-client-api",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "solana-tpu-client"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "async-trait",
  "bincode",
@@ -6757,7 +6656,7 @@ dependencies = [
  "solana-pubsub-client",
  "solana-rpc-client",
  "solana-rpc-client-api",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
  "tokio",
 ]
@@ -6765,7 +6664,7 @@ dependencies = [
 [[package]]
 name = "solana-transaction-status"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "Inflector",
  "base64 0.21.7",
@@ -6778,18 +6677,18 @@ dependencies = [
  "serde_derive",
  "serde_json",
  "solana-account-decoder",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "spl-associated-token-account 2.3.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-memo 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-token 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-token-2022 2.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "spl-associated-token-account 2.3.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-memo 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-token 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-token-2022 2.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
  "thiserror",
 ]
 
 [[package]]
 name = "solana-turbine"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "bytes",
@@ -6816,7 +6715,7 @@ dependencies = [
  "solana-rpc",
  "solana-rpc-client-api",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-streamer",
  "thiserror",
  "tokio",
@@ -6825,12 +6724,12 @@ dependencies = [
 [[package]]
 name = "solana-udp-client"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "async-trait",
  "solana-connection-cache",
  "solana-net-utils",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-streamer",
  "thiserror",
  "tokio",
@@ -6839,17 +6738,17 @@ dependencies = [
 [[package]]
 name = "solana-unified-scheduler-logic"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 
 [[package]]
 name = "solana-unified-scheduler-pool"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "solana-ledger",
  "solana-program-runtime",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-unified-scheduler-logic",
  "solana-vote",
 ]
@@ -6857,22 +6756,22 @@ dependencies = [
 [[package]]
 name = "solana-version"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "log",
  "rustc_version",
  "semver",
  "serde",
  "serde_derive",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "solana-vote"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "crossbeam-channel",
  "itertools",
@@ -6880,9 +6779,9 @@ dependencies = [
  "rustc_version",
  "serde",
  "serde_derive",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-vote-program",
  "thiserror",
 ]
@@ -6890,7 +6789,7 @@ dependencies = [
 [[package]]
 name = "solana-vote-program"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bincode",
  "log",
@@ -6899,19 +6798,19 @@ dependencies = [
  "rustc_version",
  "serde",
  "serde_derive",
- "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-frozen-abi 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-frozen-abi-macro 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-metrics",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
 ]
 
 [[package]]
 name = "solana-wen-restart"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "log",
  "prost",
@@ -6921,30 +6820,30 @@ dependencies = [
  "rustc_version",
  "solana-gossip",
  "solana-ledger",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-vote-program",
 ]
 
 [[package]]
 name = "solana-zk-token-proof-program"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "bytemuck",
  "num-derive",
  "num-traits",
  "solana-program-runtime",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "solana-zk-token-sdk"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f#3be83b35d87cf3c3582b3beaf5b672963e574b6f"
+source = "git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies#3e4f049b74c21530e2eb7b5d6c51389feb73f2fc"
 dependencies = [
  "aes-gcm-siv",
  "base64 0.21.7",
@@ -6963,8 +6862,8 @@ dependencies = [
  "serde",
  "serde_json",
  "sha3",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "subtle",
  "thiserror",
  "zeroize",
@@ -6973,7 +6872,7 @@ dependencies = [
 [[package]]
 name = "solana-zk-token-sdk"
 version = "1.18.3"
-source = "git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996#abb7d30fe97103c71958fa5a8378dc3ab93c0996"
+source = "git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d#bc5f5ec88e16c00c76c823f7140e15f7d5261f6d"
 dependencies = [
  "aes-gcm-siv",
  "base64 0.21.7",
@@ -6992,8 +6891,8 @@ dependencies = [
  "serde",
  "serde_json",
  "sha3",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
  "subtle",
  "thiserror",
  "zeroize",
@@ -7048,7 +6947,7 @@ dependencies = [
  "borsh 1.2.1",
  "num-derive",
  "num-traits",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-token 4.0.1",
  "spl-token-2022 2.0.1",
  "thiserror",
@@ -7057,15 +6956,15 @@ dependencies = [
 [[package]]
 name = "spl-associated-token-account"
 version = "2.3.1"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "assert_matches",
  "borsh 1.2.1",
  "num-derive",
  "num-traits",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "spl-token 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-token-2022 2.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "spl-token 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-token-2022 2.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
  "thiserror",
 ]
 
@@ -7073,9 +6972,9 @@ dependencies = [
 name = "spl-associated-token-account-test"
 version = "0.0.1"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-associated-token-account 2.3.1",
  "spl-token 4.0.1",
  "spl-token-2022 2.0.1",
@@ -7088,9 +6987,9 @@ dependencies = [
  "borsh 1.2.1",
  "num-derive",
  "num-traits",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-token 4.0.1",
  "thiserror",
  "uint",
@@ -7103,7 +7002,7 @@ dependencies = [
  "bytemuck",
  "rand 0.8.5",
  "rand_distr",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-merkle-tree-reference",
  "thiserror",
  "tokio",
@@ -7115,18 +7014,18 @@ version = "0.1.1"
 dependencies = [
  "borsh 0.10.3",
  "bytemuck",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-discriminator-derive 0.1.2",
 ]
 
 [[package]]
 name = "spl-discriminator"
 version = "0.1.1"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "bytemuck",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "spl-discriminator-derive 0.1.2 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "spl-discriminator-derive 0.1.2 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
 ]
 
 [[package]]
@@ -7141,10 +7040,10 @@ dependencies = [
 [[package]]
 name = "spl-discriminator-derive"
 version = "0.1.2"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "quote",
- "spl-discriminator-syn 0.1.2 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "spl-discriminator-syn 0.1.2 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
  "syn 2.0.46",
 ]
 
@@ -7163,7 +7062,7 @@ dependencies = [
 [[package]]
 name = "spl-discriminator-syn"
 version = "0.1.2"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "cpufeatures",
  "proc-macro2",
@@ -7177,54 +7076,54 @@ dependencies = [
 name = "spl-example-cross-program-invocation"
 version = "1.0.0"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "spl-example-custom-heap"
 version = "1.0.0"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "spl-example-logging"
 version = "1.0.0"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "spl-example-sysvar"
 version = "1.0.0"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "spl-example-transfer-lamports"
 version = "1.0.0"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "spl-example-transfer-tokens"
 version = "1.0.0"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-token 4.0.1",
 ]
 
@@ -7233,9 +7132,9 @@ name = "spl-feature-gate"
 version = "0.1.0"
 dependencies = [
  "num_enum",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-program-error 0.3.1",
 ]
 
@@ -7244,9 +7143,9 @@ name = "spl-feature-proposal"
 version = "1.0.0"
 dependencies = [
  "borsh 1.2.1",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-token 4.0.1",
 ]
 
@@ -7259,8 +7158,8 @@ dependencies = [
  "solana-clap-utils",
  "solana-cli-config",
  "solana-client",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-feature-proposal",
 ]
 
@@ -7278,9 +7177,9 @@ dependencies = [
  "proptest",
  "serde",
  "serde_derive",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-governance-addin-api",
  "spl-governance-addin-mock",
  "spl-governance-test-sdk",
@@ -7294,7 +7193,7 @@ name = "spl-governance-addin-api"
 version = "0.1.4"
 dependencies = [
  "borsh 1.2.1",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-governance-tools",
 ]
 
@@ -7311,9 +7210,9 @@ dependencies = [
  "proptest",
  "serde",
  "serde_derive",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-governance-addin-api",
  "spl-governance-test-sdk",
  "spl-governance-tools",
@@ -7334,9 +7233,9 @@ dependencies = [
  "proptest",
  "serde",
  "serde_derive",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-governance",
  "spl-governance-addin-api",
  "spl-governance-addin-mock",
@@ -7358,9 +7257,9 @@ dependencies = [
  "num-traits",
  "serde",
  "serde_derive",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-token 4.0.1",
  "thiserror",
 ]
@@ -7376,7 +7275,7 @@ dependencies = [
  "num-traits",
  "serde",
  "serde_derive",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-token 4.0.1",
  "thiserror",
 ]
@@ -7386,9 +7285,9 @@ name = "spl-instruction-padding"
 version = "0.1.1"
 dependencies = [
  "num_enum",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
@@ -7397,9 +7296,9 @@ version = "0.1.0"
 dependencies = [
  "borsh 1.2.1",
  "shank",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-associated-token-account 2.3.1",
  "spl-token 4.0.1",
  "thiserror",
@@ -7414,9 +7313,9 @@ dependencies = [
  "num-derive",
  "num-traits",
  "proptest",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
  "uint",
 ]
@@ -7425,24 +7324,24 @@ dependencies = [
 name = "spl-memo"
 version = "4.0.1"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
 name = "spl-memo"
 version = "4.0.1"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
 ]
 
 [[package]]
 name = "spl-merkle-tree-reference"
 version = "0.1.0"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
 ]
 
@@ -7453,9 +7352,9 @@ dependencies = [
  "borsh 1.2.1",
  "num-derive",
  "num-traits",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
 ]
 
@@ -7468,21 +7367,21 @@ dependencies = [
  "bytemuck",
  "serde",
  "serde_json",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-program-error 0.3.1",
 ]
 
 [[package]]
 name = "spl-pod"
 version = "0.1.1"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "borsh 1.2.1",
  "bytemuck",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "spl-program-error 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "spl-program-error 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
 ]
 
 [[package]]
@@ -7493,8 +7392,8 @@ dependencies = [
  "num-derive",
  "num-traits",
  "serial_test",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-program-error-derive 0.3.2",
  "thiserror",
 ]
@@ -7502,12 +7401,12 @@ dependencies = [
 [[package]]
 name = "spl-program-error"
 version = "0.3.1"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "num-derive",
  "num-traits",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "spl-program-error-derive 0.3.2 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "spl-program-error-derive 0.3.2 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
  "thiserror",
 ]
 
@@ -7524,7 +7423,7 @@ dependencies = [
 [[package]]
 name = "spl-program-error-derive"
 version = "0.3.2"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -7539,9 +7438,9 @@ dependencies = [
  "bytemuck",
  "num-derive",
  "num-traits",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-pod 0.1.1",
  "thiserror",
 ]
@@ -7551,9 +7450,9 @@ name = "spl-shared-memory"
 version = "2.0.6"
 dependencies = [
  "arrayref",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
 ]
 
 [[package]]
@@ -7568,9 +7467,9 @@ dependencies = [
  "num-traits",
  "num_enum",
  "rand 0.8.5",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-security-txt",
  "solana-vote-program",
  "spl-associated-token-account 2.3.1",
@@ -7597,9 +7496,9 @@ dependencies = [
  "solana-cli-config",
  "solana-cli-output",
  "solana-client",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-remote-wallet",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-test-validator",
  "solana-transaction-status",
  "solana-vote-program",
@@ -7627,9 +7526,9 @@ dependencies = [
  "proptest",
  "serde",
  "serde_derive",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-security-txt",
  "solana-vote-program",
  "spl-math",
@@ -7656,10 +7555,10 @@ dependencies = [
  "solana-cli-config",
  "solana-cli-output",
  "solana-client",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-remote-wallet",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-associated-token-account 2.3.1",
  "spl-stake-pool",
  "spl-token 4.0.1",
@@ -7674,9 +7573,9 @@ dependencies = [
  "futures-util",
  "serde",
  "solana-client",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-discriminator 0.1.1",
  "spl-pod 0.1.1",
  "spl-program-error 0.3.1",
@@ -7686,14 +7585,14 @@ dependencies = [
 [[package]]
 name = "spl-tlv-account-resolution"
 version = "0.5.2"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "bytemuck",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "spl-discriminator 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-pod 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-program-error 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-type-length-value 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "spl-discriminator 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-pod 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-program-error 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-type-length-value 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
 ]
 
 [[package]]
@@ -7708,37 +7607,23 @@ dependencies = [
  "num_enum",
  "proptest",
  "serial_test",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "thiserror",
 ]
 
 [[package]]
 name = "spl-token"
 version = "4.0.1"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=401edd89551624edb53beb3f0b82c30e2474340e#401edd89551624edb53beb3f0b82c30e2474340e"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "arrayref",
  "bytemuck",
  "num-derive",
  "num-traits",
  "num_enum",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=1d97168adad264eea43a67cf7099e5210bd59ab1)",
- "thiserror",
-]
-
-[[package]]
-name = "spl-token"
-version = "4.0.1"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
-dependencies = [
- "arrayref",
- "bytemuck",
- "num-derive",
- "num-traits",
- "num_enum",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
  "thiserror",
 ]
 
@@ -7758,11 +7643,11 @@ dependencies = [
  "serde_json",
  "serde_with 3.6.1",
  "serial_test",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-security-txt",
- "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-memo 4.0.1",
  "spl-pod 0.1.1",
  "spl-tlv-account-resolution 0.5.2",
@@ -7777,23 +7662,23 @@ dependencies = [
 [[package]]
 name = "spl-token-2022"
 version = "2.0.1"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "arrayref",
  "bytemuck",
  "num-derive",
  "num-traits",
  "num_enum",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
  "solana-security-txt",
- "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "spl-memo 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-pod 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-token 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-token-group-interface 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-token-metadata-interface 0.2.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-transfer-hook-interface 0.5.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-type-length-value 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "solana-zk-token-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "spl-memo 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-pod 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-token 4.0.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-token-group-interface 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-token-metadata-interface 0.2.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-transfer-hook-interface 0.5.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-type-length-value 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
  "thiserror",
 ]
 
@@ -7804,9 +7689,9 @@ dependencies = [
  "async-trait",
  "borsh 1.2.1",
  "futures-util",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-associated-token-account 2.3.1",
  "spl-instruction-padding",
  "spl-memo 4.0.1",
@@ -7841,9 +7726,9 @@ dependencies = [
  "solana-cli-config",
  "solana-cli-output",
  "solana-client",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-remote-wallet",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-test-validator",
  "solana-transaction-status",
  "spl-associated-token-account 2.3.1",
@@ -7873,7 +7758,7 @@ dependencies = [
  "solana-program-test",
  "solana-rpc-client",
  "solana-rpc-client-api",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-associated-token-account 2.3.1",
  "spl-memo 4.0.1",
  "spl-token 4.0.1",
@@ -7888,9 +7773,9 @@ dependencies = [
 name = "spl-token-collection"
 version = "0.1.0"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-discriminator 0.1.1",
  "spl-pod 0.1.1",
  "spl-program-error 0.3.1",
@@ -7906,9 +7791,9 @@ dependencies = [
 name = "spl-token-group-example"
 version = "0.1.0"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-discriminator 0.1.1",
  "spl-pod 0.1.1",
  "spl-token-2022 2.0.1",
@@ -7923,7 +7808,7 @@ name = "spl-token-group-interface"
 version = "0.1.1"
 dependencies = [
  "bytemuck",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-discriminator 0.1.1",
  "spl-pod 0.1.1",
  "spl-program-error 0.3.1",
@@ -7933,13 +7818,13 @@ dependencies = [
 [[package]]
 name = "spl-token-group-interface"
 version = "0.1.1"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "bytemuck",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "spl-discriminator 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-pod 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-program-error 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "spl-discriminator 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-pod 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-program-error 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
 ]
 
 [[package]]
@@ -7952,9 +7837,9 @@ dependencies = [
  "num-derive",
  "num-traits",
  "proptest",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-token 4.0.1",
  "thiserror",
  "uint",
@@ -7968,9 +7853,9 @@ dependencies = [
  "solana-clap-utils",
  "solana-cli-config",
  "solana-client",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-token 4.0.1",
  "spl-token-lending",
 ]
@@ -7979,9 +7864,9 @@ dependencies = [
 name = "spl-token-metadata-example"
 version = "0.2.0"
 dependencies = [
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-pod 0.1.1",
  "spl-token-2022 2.0.1",
  "spl-token-client",
@@ -7997,7 +7882,7 @@ dependencies = [
  "borsh 1.2.1",
  "serde",
  "serde_json",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-discriminator 0.1.1",
  "spl-pod 0.1.1",
  "spl-program-error 0.3.1",
@@ -8007,14 +7892,14 @@ dependencies = [
 [[package]]
 name = "spl-token-metadata-interface"
 version = "0.2.1"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "borsh 1.2.1",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "spl-discriminator 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-pod 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-program-error 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-type-length-value 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "spl-discriminator 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-pod 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-program-error 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-type-length-value 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
 ]
 
 [[package]]
@@ -8028,8 +7913,8 @@ dependencies = [
  "num-traits",
  "proptest",
  "roots",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-math",
  "spl-token 4.0.1",
  "spl-token-2022 2.0.1",
@@ -8043,7 +7928,7 @@ version = "0.0.1"
 dependencies = [
  "arbitrary",
  "honggfuzz",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-math",
  "spl-token 4.0.1",
  "spl-token-swap",
@@ -8056,9 +7941,9 @@ dependencies = [
  "num-derive",
  "num-traits",
  "num_enum",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-token 4.0.1",
  "spl-token-2022 2.0.1",
  "spl-token-client",
@@ -8075,9 +7960,9 @@ dependencies = [
  "solana-clap-v3-utils",
  "solana-cli-config",
  "solana-client",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-remote-wallet",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-test-validator",
  "spl-associated-token-account 2.3.1",
  "spl-token 4.0.1",
@@ -8094,7 +7979,7 @@ version = "0.1.0"
 dependencies = [
  "bytemuck",
  "num_enum",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-associated-token-account 2.3.1",
  "spl-token 4.0.1",
  "spl-token-2022 2.0.1",
@@ -8113,9 +7998,9 @@ dependencies = [
  "solana-clap-v3-utils",
  "solana-cli-config",
  "solana-client",
- "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-logger 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-remote-wallet",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-test-validator",
  "spl-tlv-account-resolution 0.5.2",
  "spl-token-2022 2.0.1",
@@ -8131,9 +8016,9 @@ name = "spl-transfer-hook-example"
 version = "0.5.0"
 dependencies = [
  "arrayref",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-tlv-account-resolution 0.5.2",
  "spl-token-2022 2.0.1",
  "spl-transfer-hook-interface 0.5.1",
@@ -8146,7 +8031,7 @@ version = "0.5.1"
 dependencies = [
  "arrayref",
  "bytemuck",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-discriminator 0.1.1",
  "spl-pod 0.1.1",
  "spl-program-error 0.3.1",
@@ -8158,16 +8043,16 @@ dependencies = [
 [[package]]
 name = "spl-transfer-hook-interface"
 version = "0.5.1"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "arrayref",
  "bytemuck",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "spl-discriminator 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-pod 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-program-error 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-tlv-account-resolution 0.5.2 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-type-length-value 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "spl-discriminator 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-pod 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-program-error 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-tlv-account-resolution 0.5.2 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-type-length-value 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
 ]
 
 [[package]]
@@ -8175,7 +8060,7 @@ name = "spl-type-length-value"
 version = "0.3.1"
 dependencies = [
  "bytemuck",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-discriminator 0.1.1",
  "spl-pod 0.1.1",
  "spl-program-error 0.3.1",
@@ -8185,13 +8070,13 @@ dependencies = [
 [[package]]
 name = "spl-type-length-value"
 version = "0.3.1"
-source = "git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113#c170b36a83d2431279deb541788232d8c48b1113"
+source = "git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp#dfe7f6f7330e2c63eceb60fe368f1e2598228e3c"
 dependencies = [
  "bytemuck",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=3be83b35d87cf3c3582b3beaf5b672963e574b6f)",
- "spl-discriminator 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-pod 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
- "spl-program-error 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?rev=c170b36a83d2431279deb541788232d8c48b1113)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=bc5f5ec88e16c00c76c823f7140e15f7d5261f6d)",
+ "spl-discriminator 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-pod 0.1.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
+ "spl-program-error 0.3.1 (git+https://github.com/Inon123/solana-program-library.git?branch=inon/temp)",
 ]
 
 [[package]]
@@ -8208,7 +8093,7 @@ name = "spl-type-length-value-derive-test"
 version = "0.1.0"
 dependencies = [
  "borsh 1.2.1",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-discriminator 0.1.1",
  "spl-type-length-value 0.3.1",
 ]
@@ -8218,9 +8103,9 @@ name = "stateless-asks"
 version = "0.1.0"
 dependencies = [
  "borsh 1.2.1",
- "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-program 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "solana-program-test",
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-associated-token-account 2.3.1",
  "spl-token 4.0.1",
  "thiserror",
@@ -8516,7 +8401,7 @@ dependencies = [
 name = "test-client"
 version = "0.1.0"
 dependencies = [
- "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?rev=abb7d30fe97103c71958fa5a8378dc3ab93c0996)",
+ "solana-sdk 1.18.3 (git+https://github.com/Inon123/solana.git?branch=chore/update_dependencies)",
  "spl-memo 4.0.1",
  "spl-token 4.0.1",
  "spl-token-swap",

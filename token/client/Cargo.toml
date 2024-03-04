@@ -12,12 +12,12 @@ async-trait = "0.1"
 curve25519-dalek = "3.2.1"
 futures = "0.3.30"
 futures-util = "0.3"
-solana-banks-interface = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-cli-output = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996", optional = true }
-solana-program-test = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-rpc-client = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-rpc-client-api = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-sdk = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-banks-interface = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-cli-output = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies", optional = true }
+solana-program-test = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-rpc-client = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-rpc-client-api = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-sdk = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 # We never want the entrypoint for ATA, but we want the entrypoint for token when
 # testing token
 spl-associated-token-account = { version = "2.0", path = "../../associated-token-account/program", features = [

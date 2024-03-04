@@ -13,12 +13,12 @@ walkdir = "2"
 [dependencies]
 clap = { version = "3", features = ["cargo"] }
 futures-util = "0.3.30"
-solana-clap-v3-utils = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-cli-config = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-client = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-logger = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-remote-wallet = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-sdk = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-clap-v3-utils = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-cli-config = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-client = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-logger = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-remote-wallet = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-sdk = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 spl-associated-token-account = { version = "2.0", path = "../../associated-token-account/program", features = ["no-entrypoint"] }
 spl-token = { version = "4.0.1", path = "../../token/program", features = ["no-entrypoint"] }
 spl-token-2022 = { version = "2.0", path = "../../token/program-2022", features = ["no-entrypoint"] }
@@ -27,7 +27,7 @@ spl-token-upgrade = { version = "0.1", path = "../program", features = ["no-entr
 tokio = { version = "1", features = ["full"] }
 
 [dev-dependencies]
-solana-test-validator = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-test-validator = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 
 [[bin]]
 name = "spl-token-upgrade"

@@ -13,7 +13,7 @@ test-sbf = []
 [dependencies]
 num-derive = "0.4"
 num-traits = "0.2"
-solana-program = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-program = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 spl-token = { version = "4.0.1", path = "../../token/program", features = [
   "no-entrypoint",
 ] }
@@ -22,8 +22,8 @@ uint = "0.9"
 borsh = "1.2.1"
 
 [dev-dependencies]
-solana-program-test = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-sdk = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-program-test = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-sdk = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 
 [lib]
 crate-type = ["cdylib", "lib"]

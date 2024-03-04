@@ -24,7 +24,7 @@ test = []
 [dependencies]
 borsh = "1.2.1"
 shank = "^0.2.1"
-solana-program = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-program = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
 spl-associated-token-account = { version = "2.0", path = "../../associated-token-account/program", features = [
   "no-entrypoint",
 ] }
@@ -34,5 +34,5 @@ spl-token = { version = "4.0.1", path = "../../token/program", features = [
 thiserror = "^1.0.57"
 
 [dev-dependencies]
-solana-program-test = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
-solana-sdk = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-program-test = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
+solana-sdk = { git = "https://github.com/Inon123/solana.git", branch = "chore/update_dependencies"}
