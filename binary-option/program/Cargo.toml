@@ -9,9 +9,9 @@ no-entrypoint = []
 test-sbf = []
 
 [dependencies]
-solana-program = ">=1.18.2,<=2"
+solana-program = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
 thiserror = "1.0"
-spl-token = { version = "4.0", path = "../../token/program", features = [
+spl-token = { version = "4.0.1", path = "../../token/program", features = [
   "no-entrypoint",
 ] }
 arrayref = "0.3.7"

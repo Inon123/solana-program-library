@@ -17,17 +17,17 @@ serde = "1.0.197"
 serde_derive = "1.0.103"
 serde_json = "1.0.114"
 serde_with = "3.6.1"
-solana-account-decoder = ">=1.18.2,<=2"
-solana-clap-v3-utils = ">=1.18.2,<=2"
-solana-cli-config = ">=1.18.2,<=2"
-solana-cli-output = ">=1.18.2,<=2"
-solana-client = ">=1.18.2,<=2"
-solana-logger = ">=1.18.2,<=2"
-solana-remote-wallet = ">=1.18.2,<=2"
-solana-sdk = ">=1.18.2,<=2"
-solana-transaction-status = ">=1.18.2,<=2"
-solana-vote-program = ">=1.18.2,<=2"
-spl-token = { version = "4.0", path = "../../token/program", features = [
+solana-account-decoder = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-clap-v3-utils = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-cli-config = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-cli-output = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-client = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-logger = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-remote-wallet = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-sdk = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-transaction-status = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+solana-vote-program = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
+spl-token = { version = "4.0.1", path = "../../token/program", features = [
   "no-entrypoint",
 ] }
 spl-token-client = { version = "0.8", path = "../../token/client" }
@@ -39,7 +39,7 @@ spl-single-pool = { version = "1.0.0", path = "../program", features = [
 ] }
 
 [dev-dependencies]
-solana-test-validator = ">=1.18.2,<=2"
+solana-test-validator = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
 serial_test = "3.0.0"
 test-case = "3.3"
 tempfile = "3.10.1"

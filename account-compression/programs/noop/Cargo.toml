@@ -16,4 +16,4 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-solana-program = ">=1.18.2,<=2"
+solana-program = { git = "https://github.com/Inon123/solana.git", rev ="abb7d30fe97103c71958fa5a8378dc3ab93c0996"}
